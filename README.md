@@ -15,15 +15,15 @@ The first part, associated with ESTR4998, builds upon three complementary lines 
 
 First, the recent work of Tyurin (2025) revealed the fundamental connection between
 large-stepsize GD and perceptron algorithms, showing that as $\eta \to \infty$, binary logistic
-regression with GD reduces to a batch version of the perceptron algorithm. This con-
-nection explains the empirical success of large-stepsize training and provides geometric
+regression with GD reduces to a batch version of the perceptron algorithm. This connection 
+explains the empirical success of large-stepsize training and provides geometric
 intuition for the optimization dynamics.
 
-Second, the seminal analysis of Wu et al. (2024) provided the first complete characteri-
-zation of large-stepsize GD dynamics for binary logistic regression on separable data,
+Second, the seminal analysis of Wu et al. (2024) provided the first complete characterization 
+of large-stepsize GD dynamics for binary logistic regression on separable data,
 establishing that:
-- In the EoS phase, GD initially induces a non-monotonic loss. However, the aver-
-aged loss decreases at rate $\tilde{O}((1 + \eta^2)/(\eta t))$ during the EoS phase;
+- In the EoS phase, GD initially induces a non-monotonic loss. However, the averaged
+- loss decreases at rate $\tilde{O}((1 + \eta^2)/(\eta t))$ during the EoS phase;
 - During the phase transition, the loss decreases monotonically after $O(\eta)$ steps;
 - After the transition, GD enters the stable phase, the loss decreases monotonically
 at an $\tilde{O}(1/(\eta t))$ rate after given $t$ extra iterations.
