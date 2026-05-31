@@ -24,8 +24,8 @@ Second, the seminal analysis of Wu et al. (2024) provided the first complete cha
 of large-stepsize GD dynamics for binary logistic regression on separable data,
 establishing that:
 
-- In the EoS phase, GD initially induces a non-monotonic loss. However, the averaged
-- loss decreases at rate $\tilde{O}((1 + \eta^2)/(\eta t))$ during the EoS phase;
+- In the EoS phase, GD initially induces a non-monotonic loss. However, the averaged loss
+  decreases at rate $\tilde{O}((1 + \eta^2)/(\eta t))$ during the EoS phase;
 - During the phase transition, the loss decreases monotonically after $O(\eta)$ steps;
 - After the transition, GD enters the stable phase, the loss decreases monotonically
   at an $\tilde{O}(1/(\eta t))$ rate after given $t$ extra iterations.
